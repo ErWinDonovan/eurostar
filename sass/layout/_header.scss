@@ -1,0 +1,128 @@
+.header {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.block-heading {
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #0e2754;
+	margin-bottom: 0;
+	min-height: 50px;
+}
+
+.block-contact {
+	font-size: 11px;
+	color: #fff;
+}
+
+.topinfo {
+	margin-bottom: 20px;
+}
+
+.icon {
+	position: relative;
+	width: 41px;
+	height: 41px;
+	background-color: #004B99;
+	color: #fff;
+	font-size: 14px;
+	line-height: 41px;
+	text-align: center;
+	transition: background .2s;
+
+		&:before {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%); 
+			-webkit-transform: translateX(-50%);
+			content: $font-Flaticon-small-light-bulb;
+			font-family: "flaticon"; 
+			font-size: 25px;
+		}
+
+}
+
+.lang {
+	float: right;
+	cursor: pointer;
+
+		&:before {
+			content: none;
+		}
+
+		&:hover {
+			background: #50BECB;
+		}
+}
+
+.lang-mobile {
+	display: none;
+}
+
+.light {
+	background-color: #0096CA;
+	margin-left: 5px;
+}
+
+.skype {
+	font-size: 11px;
+	text-transform: uppercase;
+
+	span {
+		color: #fff;
+	}
+
+	&:before {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+
+.email-wrap {
+	padding-right: 2px;
+}
+
+input[type="email"] {
+	width: 100%;
+	background: #0096CA;
+	border: 0;
+	color: #fff;
+	padding: 12px;
+	float: right;
+	width: 302px;
+}
+
+::-webkit-input-placeholder {color:#FFF;}
+
+.submit {
+	position: relative;
+	background: #0096CA;
+	min-height: 39px;
+	border: 0;
+	cursor: pointer;
+	transition: background .2s;
+
+	&:before {
+		position: absolute;
+		left: 50%;
+		top: 0;
+		transform: translateX(-50%); 
+		-webkit-transform: translateX(-50%);
+		content: $font-Flaticon-note-paper-square-and-a-pencil;
+		display: block;
+		font-family: "flaticon";
+		font-size: 24px;
+		line-height: 39px;
+		color: #fff;
+	}
+
+	&:hover {
+		background: #50BECB;
+
+		&:before {
+			color: #002A6B;
+		}
+	}
+}

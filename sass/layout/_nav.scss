@@ -1,0 +1,89 @@
+.nav {
+	position: relative;
+
+	ul {
+		background: #D4E2F0;
+		border-top: 6px solid #50BECB;
+
+		li {
+			display: inline-block;
+			line-height: 43px;
+
+			a {
+				display: block;
+				padding: 0 8px 0 8px;
+				text-transform: uppercase;
+				font-weight: bold;
+				font-size: 15px;
+
+				&:hover {
+					background: #50BECB;
+				}
+			}
+		}
+	}
+}
+
+.home {
+	position: relative;
+	float: left;
+	width: 52px;
+	height: 49px;
+	background: #002A6B;
+	cursor: pointer;
+	transition: background .2s;
+
+	&:before {
+		position: absolute;
+		left: 50%;
+		top: 0;
+		transform: translateX(-50%); 
+		-webkit-transform: translateX(-50%);
+		content: $font-Flaticon-home-page;
+		display: block;
+		font-family: "flaticon";
+		font-size: 30px;
+		line-height: 48px;
+		color: #fff;
+	}
+
+	&:hover {
+		background: #50BECB;
+
+		&:before {
+			color: #002A6B;
+		}
+	}
+}
+
+.search-wrap {
+	padding: 0;
+}
+
+input[type="text"] {
+	width: 100%;
+	background: #81ACD1;
+	border: 0;
+	color: #fff;
+	padding: 17px 16px 17px 16px;
+}
+
+.search .submit {
+	background: #002A6B;
+	min-height: 48px;
+	transition: background .2s;
+
+	&:before {
+		content: $font-Flaticon-musica-searcher;
+		font-family: "flaticon";
+		font-size: 24px;
+		line-height: 47px;
+	}
+	&:hover {
+		background: #50BECB;
+
+		&:before {
+			color: #002A6B;
+		}
+	}
+}

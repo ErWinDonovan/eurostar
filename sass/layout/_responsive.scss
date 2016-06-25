@@ -1,0 +1,39 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 994px) {
+.topinfo {
+	display: none;
+}
+
+input[type="email"] {
+	width: 100%;
+}
+
+.email-wrap {
+	padding-left: 0;
+}
+
+.skype {
+	display: none;
+}
+
+.lang-mobile {
+	display: block;
+}
+
+.sidebar {
+	padding-right: 15px;
+	margin-bottom: 20px;
+}
+
+.contentbox {
+	padding-left: 15px; 
+}
+
+}
+
+@media (max-width: 768px) {
+
+}
