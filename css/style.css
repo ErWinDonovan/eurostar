@@ -1155,7 +1155,7 @@ input[type="email"] {
   color: #fff;
   padding: 12px;
   float: right;
-  width: 302px;
+  width: 277px;
 }
 
 ::-webkit-input-placeholder {
@@ -1679,7 +1679,7 @@ input[type="text"] {
   text-align: right;
 }
 
-.footer {
+.credits {
   padding: 18px;
   color: #fff;
   font-size: 12px;
